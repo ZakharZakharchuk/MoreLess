@@ -8,7 +8,7 @@ public class View {
     public final static String BRACKET2 = ")";
     public final static String SPACE=" ";
     public final static String WIN="Win";
-    public final static String WAY="Way";
+    public final static String WAY="Your way";
 
     public void print(String text){
         System.out.println(text);

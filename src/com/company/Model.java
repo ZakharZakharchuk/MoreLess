@@ -5,12 +5,9 @@ import java.util.ArrayList;
 public class Model {
     private int minBar=0;
     private int maxBar=100;
-    private int secretValue=(int)(Math.random()*100)-1;
+    private final int secretValue=(int)(Math.random()*100)-1;
+
     private ArrayList<Integer> way=new ArrayList<>();
-    public void setBar(int minBar, int maxBar){
-        this.minBar=minBar;
-        this.maxBar=maxBar;
-    }
 
     public boolean checkNumber(int number){
         way.add(number);
